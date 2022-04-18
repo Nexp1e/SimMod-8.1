@@ -52,17 +52,19 @@
             // 
             // textAnswer
             // 
+            this.textAnswer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textAnswer.AutoSize = true;
-            this.textAnswer.Location = new System.Drawing.Point(145, 99);
+            this.textAnswer.Location = new System.Drawing.Point(101, 35);
             this.textAnswer.Name = "textAnswer";
             this.textAnswer.Size = new System.Drawing.Size(0, 13);
             this.textAnswer.TabIndex = 2;
             // 
             // btnGetAnswer
             // 
-            this.btnGetAnswer.Location = new System.Drawing.Point(114, 38);
+            this.btnGetAnswer.Location = new System.Drawing.Point(300, 12);
             this.btnGetAnswer.Name = "btnGetAnswer";
-            this.btnGetAnswer.Size = new System.Drawing.Size(75, 23);
+            this.btnGetAnswer.Size = new System.Drawing.Size(77, 23);
             this.btnGetAnswer.TabIndex = 3;
             this.btnGetAnswer.Text = "Get answer";
             this.btnGetAnswer.UseVisualStyleBackColor = true;
@@ -72,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(306, 121);
+            this.ClientSize = new System.Drawing.Size(389, 98);
             this.Controls.Add(this.btnGetAnswer);
             this.Controls.Add(this.textAnswer);
             this.Controls.Add(this.labelInputQuestion);
