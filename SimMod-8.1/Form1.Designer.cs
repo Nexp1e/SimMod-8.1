@@ -28,13 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.inputQuestion = new System.Windows.Forms.TextBox();
+            this.labelInputQuestion = new System.Windows.Forms.Label();
+            this.textAnswer = new System.Windows.Forms.Label();
+            this.btnGetAnswer = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // inputQuestion
+            // 
+            this.inputQuestion.Location = new System.Drawing.Point(93, 12);
+            this.inputQuestion.Name = "inputQuestion";
+            this.inputQuestion.Size = new System.Drawing.Size(201, 20);
+            this.inputQuestion.TabIndex = 0;
+            // 
+            // labelInputQuestion
+            // 
+            this.labelInputQuestion.AutoSize = true;
+            this.labelInputQuestion.Location = new System.Drawing.Point(12, 15);
+            this.labelInputQuestion.Name = "labelInputQuestion";
+            this.labelInputQuestion.Size = new System.Drawing.Size(75, 13);
+            this.labelInputQuestion.TabIndex = 1;
+            this.labelInputQuestion.Text = "Your question:";
+            // 
+            // textAnswer
+            // 
+            this.textAnswer.AutoSize = true;
+            this.textAnswer.Location = new System.Drawing.Point(145, 99);
+            this.textAnswer.Name = "textAnswer";
+            this.textAnswer.Size = new System.Drawing.Size(0, 13);
+            this.textAnswer.TabIndex = 2;
+            // 
+            // btnGetAnswer
+            // 
+            this.btnGetAnswer.Location = new System.Drawing.Point(114, 38);
+            this.btnGetAnswer.Name = "btnGetAnswer";
+            this.btnGetAnswer.Size = new System.Drawing.Size(75, 23);
+            this.btnGetAnswer.TabIndex = 3;
+            this.btnGetAnswer.Text = "Get answer";
+            this.btnGetAnswer.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(306, 121);
+            this.Controls.Add(this.btnGetAnswer);
+            this.Controls.Add(this.textAnswer);
+            this.Controls.Add(this.labelInputQuestion);
+            this.Controls.Add(this.inputQuestion);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox inputQuestion;
+        private System.Windows.Forms.Label labelInputQuestion;
+        private System.Windows.Forms.Label textAnswer;
+        private System.Windows.Forms.Button btnGetAnswer;
     }
 }
 
